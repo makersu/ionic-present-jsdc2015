@@ -1,0 +1,26 @@
+<h2>Hello jQuery form!</h2>
+<div>    
+	<input id="name" value="John">
+	<p id="greeting">Hello John!</p>  
+</div>
+
+<pre><code data-trim contenteditable class="xml">
+<input id="name" value="John">
+<p id="greeting"></p>
+ 
+<script>
+$(function(){
+  var name = $('#name');
+  var greeting = $('#greeting');
+ 
+  function update(){
+    greeting.text('Hello ' + name.val() + '!');
+  }
+  update();
+ 
+  name.bind('keydown', function(){
+    setTimeout(update, 0);
+  });
+});
+</script>
+</code></pre>

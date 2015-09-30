@@ -1,0 +1,17 @@
+<div class="col preview demo-frame">
+  <iframe src="demos/modal/index.html"></iframe>
+</div>
+<div class="col code">
+  <h2>Modal</h2>
+  <ul style="margin-left: 70px">
+    <li class="default">AngularJS Service</li>
+    <li class="default">Inline or external template</li>
+  </ul>
+<pre><code data-trim="" contenteditable="" class="js vbnet">
+$ionicModal.fromTemplateUrl('modal.html', {
+  scope: $scope
+}).then(function(modal) {
+  $scope.modal = modal;
+});
+</code></pre>
+</div>

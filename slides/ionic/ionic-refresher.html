@@ -1,0 +1,21 @@
+<div class="col preview demo-frame">
+  <iframe src="demos/pull-to-refresh/index.html"></iframe>
+</div>
+<div class="col code">
+  <h3>Pull to Refresh</h3>
+  <ul style="margin-left: 70px">
+    <li class="default">Allows you to add pull-to-refresh to a scrollView.</li>
+  </ul>
+	<pre><code data-trim contenteditable class="xml">
+<ion-content ng-controller="MyController">
+  <ion-refresher pulling-text="Pull to refresh..." 
+  refreshing-text="Refreshing!" 
+  refreshing-icon="ion-loading-c" 
+  on-refresh="doRefresh()">
+  </ion-refresher>
+  <ion-list>
+    <ion-item ng-repeat="item in items"></ion-item>
+  </ion-list>
+</ion-content>
+	</code></pre>
+</div>

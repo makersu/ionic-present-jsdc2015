@@ -1,0 +1,21 @@
+<div class="col preview demo-frame">
+	<iframe src="demos/collection-repeat/index.html"></iframe>
+</div>
+<div class="col code">
+	<h3>Collection Repeat</h3>
+	<ul style="margin-left: 70px">
+	  <li class="default">Replacement for Angular's ng-repeat</li>
+	  <li class="default">Inspired by iOS’s UICollectionView</li>
+	  <li class="default">Scroll through thousands of items</li>
+	  <li class="default">Only renders the viewable items</li>
+	  <li class="default">Smooth scrolling!</li>
+	</ul>
+	<pre><code data-trim contenteditable class="xml">
+<div class="list">
+  <div collection-repeat="c in contacts">
+    <h2>{{ c.name }}</h2>
+    <p>{{ c.email }}</p>
+  </div>
+</div>
+</code></pre>
+</div>

@@ -33,20 +33,20 @@ module.exports = (grunt) ->
                 tasks: ['jshint']
         
             sass:
-                files: ['css/source/theme.scss']
+                files: ['css/source/theme.scss', 'css/source/ionic.scss']
                 tasks: ['sass']
 
         sass:
 
             theme:
                 files:
-                    'css/theme.css': 'css/source/theme.scss'
+                    'css/theme.css': 'css/source/*.scss'
         
         connect:
 
             livereload:
                 options:
-                    port: 9000
+                    port: 9001
                     # Change hostname to '0.0.0.0' to access
                     # the server from outside.
                     hostname: 'localhost'

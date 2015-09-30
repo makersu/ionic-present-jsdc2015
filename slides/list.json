@@ -1,1 +1,85 @@
-["index.md"]
+[
+    "index.md",
+    "about.md",
+    "overview.md",
+    [
+        "cordova/cordova-mobilefirst.md",
+        "cordova/cordova-choice.md",
+        "hybrid/hybrid-native-downsides.html",
+        "hybrid/hybrid-why.html",
+        "cordova/cordova-hybridapp.md",
+        "cordova/cordova.html",
+        "cordova/cordova-wrapper.md",
+        "hybrid/hybrid-facebook.html",
+        "hybrid/hybrid-mobile-devices.html",
+        "hybrid/hybrid-web-standards.html",
+        "hybrid/hybrid-ios-adoption.html",
+        "hybrid/hybrid-android-adoption.html",
+        "hybrid/hybrid-web-sdk.html",
+        "hybrid/hybrid-frameworks.html",
+        "hybrid/hybrid-senchaTouch.html",
+        "hybrid/hybrid-mobileAngularUI.html",
+        "hybrid/hybrid-ionic.html",
+        "angularjs/angularjs-trends.html"
+    ],
+     [
+        "angularjs/angularjs.md",
+        "angularjs/angularjs-spa.md",
+        "angularjs/angularjs-overview.md",
+        "angularjs/angularjs-oneway-binding.html",
+        "angularjs/angularjs-jquery-form.html",
+
+        "angularjs/angularjs-twoway-binding.md",
+        "angularjs/angularjs-form.html",
+
+        "angularjs/angularjs-twoway-binding-code.md",
+        "angularjs/angularjs-mvc-concept.md",
+        "angularjs/angularjs-controller-code.md",
+        "angularjs/angularjs-service-code.md",
+        "angularjs/angularjs-DI.md",
+        "angularjs/angularjs-directives.md",
+        "angularjs/angularjs-module.md",
+
+        "angularjs/angularjs-mvc.md"
+    ],
+    [
+        "ionic/ionic.md",
+        "ionic/ionic-framework.html",
+
+        "ionic/ionic-web-technologies.html",
+        "ionic/ionic-angularjs.html",
+        "ionic/ionic-native-focused.html",
+        "ionic/ionic-performance-obsessed.html",
+        "ionic/ionic-sass.html",
+
+        "ionic/ionic-app-stack.md",
+        "ionic/ionic-lists.html",
+        "ionic/ionic-complex-lists.html",
+        "ionic/ionic-navigation.html",
+        "ionic/ionic-tabs.html",
+        "ionic/ionic-side-menu.html",
+        "ionic/ionic-actionsheet.html",
+        "ionic/ionic-modal.html",
+        "ionic/ionic-refresher.html",
+        "ionic/ionic-other-components.html",
+        "ionic/ionic-ionicons.md",
+
+        "ngcordova/ngcordova.md",
+        "cordova/cordova-plugin.md",
+        "ngcordova/ngcordova-plugins-overview.md",
+        "ngcordova/ngcordova-services.md",
+
+        "ionic/ionic-fullstack.html",
+        "ionic/ionic-3way-databinding.md",
+        "ionic/ionic-4way-databinding.md"
+
+       
+
+    ],
+    [
+        "ionic/ionic-overview.md"
+
+    ]
+
+    
+]

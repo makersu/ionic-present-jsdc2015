@@ -1,6 +1,6 @@
 {
   "generator-reveal": {
-    "presentationTitle": "Reveal.js and Yeoman is Awesomeness",
+    "presentationTitle": "Building Hybrid Mobile Apps with AngularJS and Ionic Framework",
     "packageVersion": "0.0.0",
     "useSass": true,
     "deployToGithubPages": false
