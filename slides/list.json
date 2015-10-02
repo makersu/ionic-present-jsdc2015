@@ -35,17 +35,14 @@
         "angularjs/angularjs-twoway-binding-code.md",
         "angularjs/angularjs-templates.html",
         "angularjs/angularjs-directives-kinds.md",
-        "angularjs/angularjs-directives-code.html",
-
+        "angularjs/angularjs-template-model-view.md",
 
         "angularjs/angularjs-mvc-concept.md",
 
         "angularjs/angularjs-controller-code.md",
-        "angularjs/angularjs-template-directive.md",
 
         "angularjs/angularjs-service-code.md",
         "angularjs/angularjs-DI.md",
-        "angularjs/angularjs-directives.md",
 
         "angularjs/angularjs-uiRouter.html",
         "angularjs/angularjs-uiRouter-code.html",
