@@ -65,7 +65,7 @@
         "ionic/ionic-app-stack.md",
         "ionic/ionic-lists.html",
         "ionic/ionic-complex-lists.html",
-        "ionic/ionic-collection-repeat.html",
+
         "ionic/ionic-navigation.html",
         "ionic/ionic-tabs.html",
         "ionic/ionic-side-menu.html",
@@ -86,7 +86,14 @@
 
     ],
     [
-        "ionic/ionic-overview.md"
+        "ionic/ionic-overview.md",
+        "ionic/ionic-getting-started.md",
+        "ionic/ionic-cli.md",
+        "ionic/ionic-cli-preview.md",
+        "ionic/ionic-auto-generate-icon.md",
+        "ionic/ionic-view-app.md",
+        "ionic/ionic-creator.md",
+        "ionic/ionic-lab.md"
 
     ],
     [

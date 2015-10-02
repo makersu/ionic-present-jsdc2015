@@ -271,6 +271,14 @@ section.has-light-background {
     margin-bottom: 0;
     font-size: 24px;
   }
+  pre {
+    code {
+      &.code-larger {
+        font-size: 28px;
+        line-height: 1.3;
+      }
+    }
+  }
 }
 
 /******************
