@@ -33,14 +33,24 @@
         "angularjs/angularjs-form.html",
 
         "angularjs/angularjs-twoway-binding-code.md",
+        "angularjs/angularjs-templates.html",
+        "angularjs/angularjs-template-directive.md",
+
         "angularjs/angularjs-mvc-concept.md",
+
         "angularjs/angularjs-controller-code.md",
         "angularjs/angularjs-service-code.md",
         "angularjs/angularjs-DI.md",
         "angularjs/angularjs-directives.md",
+        "angularjs/angularjs-uiRouter.html",
+        "angularjs/angularjs-uiRouter-code.html",
+        "angularjs/angularjs-uiRouter-html.html",
         "angularjs/angularjs-module.md",
 
-        "angularjs/angularjs-mvc.md"
+
+        "angularjs/angularjs-mvc.md",
+        "ionic/ionic-3way-databinding.md",
+        "ionic/ionic-4way-databinding.md"
     ],
     [
         "ionic/ionic.md",
@@ -66,18 +76,20 @@
 
         "ngcordova/ngcordova.md",
         "cordova/cordova-plugin.md",
+        "cordova/cordova-plugin-structure.md",
         "ngcordova/ngcordova-plugins-overview.md",
-        "ngcordova/ngcordova-services.md",
+        "ngcordova/ngcordova-capture.md",
 
-        "ionic/ionic-fullstack.html",
-        "ionic/ionic-3way-databinding.md",
-        "ionic/ionic-4way-databinding.md"
+        "ngcordova/ngcordova-services.md"
 
-       
 
     ],
     [
         "ionic/ionic-overview.md"
+
+    ],
+    [
+        "ionic/ionic-fullstack.html"
 
     ]
 
