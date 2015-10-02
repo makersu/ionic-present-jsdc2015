@@ -1,6 +1,6 @@
 <!-- <h1>Directives</h1> -->
 <h2>Kinds of Directive</h2>
-<ul style="margin-left:200px;">
+<ul style="margin-left:180px;">
   <li class="default">E - Element name: `<my-directive></my-directive>` </li>
   <li class="default">A - Attribute: `<div my-directive="exp"></div>` </li>
   <li class="default">C - Class: `<div class="my-directive: exp;"></div>` </li>
@@ -14,6 +14,7 @@
   <li class="default">ng-repeat (A, C)</li>
   <li class="default">ng-click (A, C)</li>
   <li class="default">ng-change (E, A)</li>
+  <li class="default">...</li>
 </ul>
 <aside class="notes">
 At a high level, directives are markers on a DOM element (such as an attribute, element name, comment or CSS class) that tell AngularJS's HTML compiler ($compile) to attach a specified behavior to that DOM element (e.g. via event listeners), or even to transform the DOM element and its children.<br>

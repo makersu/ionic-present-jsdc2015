@@ -43,11 +43,12 @@
 
         "angularjs/angularjs-service-code.md",
         "angularjs/angularjs-DI.md",
+        "angularjs/angularjs-module.md",
+        
 
         "angularjs/angularjs-uiRouter.html",
         "angularjs/angularjs-uiRouter-code.html",
         "angularjs/angularjs-uiRouter-html.html",
-        "angularjs/angularjs-module.md",
 
 
         "angularjs/angularjs-mvc.md",
