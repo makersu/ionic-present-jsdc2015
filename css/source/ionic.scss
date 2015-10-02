@@ -45,6 +45,7 @@ section.has-light-background {
 .reveal {
 
   h1, h2, h3, h4 {
+    font-weight: 700;
     //text-transform: uppercase;
   }
 
@@ -209,17 +210,23 @@ section.has-light-background {
     &.expand-60 {
       width: 60%;
     }
+    &.scale-1 {
+      width: 120%;
+    }
     &.scale-2 {
       width: 150%;
     }
     &.medium {
-      max-width: 85%;
+      width: 85%;
     }
     &.medium-small {
-      max-width: 75%;
+      width: 75%;
     }
     &.small {
-      max-width: 60%;
+      width: 60%;
+    }
+    &.half {
+      width: 50%;
     }
     &.white-bg {
       background-color: white;
@@ -241,11 +248,13 @@ section.has-light-background {
       padding: 10px 50px;
       text-align: center;
       &.default {
+        opacity: 1;
         list-style: initial;
         padding: initial;
         background: initial;
         text-align: initial;
         margin: initial;
+        line-height: 1.4;
       }
     }
     pre {
@@ -263,3 +272,12 @@ section.has-light-background {
     font-size: 24px;
   }
 }
+
+/******************
+ * Code STYLES
+ ******************/
+ .xml {
+  .javascript {
+    opacity: 1 !important;
+  }
+ }
