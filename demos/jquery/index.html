@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="../../js/jquery-2.1.4.min.js"></script>
+  <script>
+  	$(function(){
+		  var name = $('#name');
+		  var greeting = $('#greeting');
+		 
+		  function update(){
+		    greeting.text('Hello ' + name.val() + '!');
+		  }
+		  update();
+		 
+		  name.bind('keydown', function(){
+		    setTimeout(update, 0);
+		  });
+		});
+  </script>
+  <style>
+  	h2 { color: #fff; }
+  </style>
+</head>
+
+<body>
+
+  <div>    
+    <input id="name" value="JSDC 2015">
+		<h2 id="greeting"></h2>
+  </div>
+
+</body>
+</html>
