@@ -34,14 +34,19 @@
 
         "angularjs/angularjs-twoway-binding-code.md",
         "angularjs/angularjs-templates.html",
-        "angularjs/angularjs-template-directive.md",
+        "angularjs/angularjs-directives-kinds.md",
+        "angularjs/angularjs-directives-code.html",
+
 
         "angularjs/angularjs-mvc-concept.md",
 
         "angularjs/angularjs-controller-code.md",
+        "angularjs/angularjs-template-directive.md",
+
         "angularjs/angularjs-service-code.md",
         "angularjs/angularjs-DI.md",
         "angularjs/angularjs-directives.md",
+
         "angularjs/angularjs-uiRouter.html",
         "angularjs/angularjs-uiRouter-code.html",
         "angularjs/angularjs-uiRouter-html.html",
@@ -65,7 +70,6 @@
         "ionic/ionic-app-stack.md",
         "ionic/ionic-lists.html",
         "ionic/ionic-complex-lists.html",
-        "ionic/ionic-collection-repeat.html",
         "ionic/ionic-navigation.html",
         "ionic/ionic-tabs.html",
         "ionic/ionic-side-menu.html",
