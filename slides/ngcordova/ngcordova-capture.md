@@ -2,10 +2,11 @@
 <!-- <h3>This plugin allows you to record sound, video and images through the native capabilities of the device.</h3> -->
 <!-- This plugin allows you to record sound, video and images through the native capabilities of the device. -->
 
-Get the Source File
+Get the source file and add the Cordova plugin <!-- to your project using the Cordova CLI -->
 
 <pre><code data-trim="" contenteditable="" class="js vbnet">
 $ bower install ngCordova
+$ cordova plugin add org.apache.cordova.media-capture
 </code></pre>
 
 Inject as an Angular dependency
@@ -13,10 +14,10 @@ Inject as an Angular dependency
 angular.module('myApp', ['ngCordova'])
 </code></pre>
 
-Add the plugin to your project using the Cordova CLI
+<!-- Add the plugin to your project using the Cordova CLI
 <pre><code data-trim="" contenteditable="" class="js vbnet">
 $ cordova plugin add org.apache.cordova.media-capture
-</code></pre>
+</code></pre> -->
 
 Use $cordovaCapture service
 <pre><code data-trim="" contenteditable="" class="js vbnet">

@@ -1,0 +1,30 @@
+<h2>AngularJS Module Loading & Definition</h2>
+<pre><code data-trim="" contenteditable="" class="js">
+angular.module('myModule', [])
+.config(['depProvider', function(depProvider) {
+  // ...
+}])
+.run(['depService', function(depService) {
+  // ...
+}])
+.factory('serviceName', ['depService', function(depService) {
+  // ...
+}])
+.directive('directiveName', ['depService', function(depService) {
+  // ...
+}])
+.filter('filterName', ['depService', function(depService) {
+  // ...
+}]);
+</code></pre>
+
+<pre><code data-trim="" contenteditable="" class="js">
+
+someModule.controller('MyController', ['$scope', 'depService1', 'depService2', function($scope, depService11, depService2) {
+  ...
+  $scope.aMethod = function() {
+    ...
+  }
+  ...
+}]);
+</code></pre>

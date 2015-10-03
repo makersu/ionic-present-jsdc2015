@@ -5,10 +5,12 @@
     [
         "cordova/cordova-mobilefirst.md",
         "cordova/cordova-choice.md",
+        "hybrid/hybrid-mobile-web-downsides.html",
         "hybrid/hybrid-native-downsides.html",
         "hybrid/hybrid-why.html",
-        "cordova/cordova-hybridapp.md",
         "cordova/cordova.html",
+        "cordova/cordova-hybridapp.md",
+
         "cordova/cordova-wrapper.md",
         "hybrid/hybrid-facebook.html",
         "hybrid/hybrid-mobile-devices.html",
@@ -17,7 +19,6 @@
         "hybrid/hybrid-android-adoption.html",
         "hybrid/hybrid-web-sdk.html",
         "hybrid/hybrid-frameworks.html",
-        "hybrid/hybrid-senchaTouch.html",
         "hybrid/hybrid-mobileAngularUI.html",
         "hybrid/hybrid-ionic.html",
         "angularjs/angularjs-trends.html"
@@ -26,34 +27,28 @@
         "angularjs/angularjs.md",
         "angularjs/angularjs-spa.md",
         "angularjs/angularjs-overview.md",
+        "angularjs/angularjs-mvc-concept.md",
+        
         "angularjs/angularjs-oneway-binding.html",
         "angularjs/angularjs-jquery-form.html",
-
         "angularjs/angularjs-twoway-binding.md",
         "angularjs/angularjs-form.html",
-
         "angularjs/angularjs-twoway-binding-code.md",
         "angularjs/angularjs-templates.html",
         "angularjs/angularjs-directives-kinds.md",
         "angularjs/angularjs-template-model-view.md",
-
-        "angularjs/angularjs-mvc-concept.md",
-
         "angularjs/angularjs-controller-code.md",
-
-        "angularjs/angularjs-service-code.md",
+        "angularjs/angularjs-service-http.html",
         "angularjs/angularjs-DI.md",
+        "angularjs/angularjs-service-code.md",
+        "angularjs/angularjs-module-define.html",
+
         "angularjs/angularjs-module.md",
-        
-
-        "angularjs/angularjs-uiRouter.html",
-        "angularjs/angularjs-uiRouter-code.html",
-        "angularjs/angularjs-uiRouter-html.html",
 
 
-        "angularjs/angularjs-mvc.md",
-        "ionic/ionic-3way-databinding.md",
-        "ionic/ionic-4way-databinding.md"
+
+
+        "angularjs/angularjs-mvc.md"        
     ],
     [
         "ionic/ionic.md",
@@ -68,9 +63,12 @@
         "ionic/ionic-app-stack.md",
         "ionic/ionic-lists.html",
         "ionic/ionic-complex-lists.html",
+        "ionic/ionic-infinite-scroll.html",
 
         "ionic/ionic-navigation.html",
         "ionic/ionic-tabs.html",
+        "angularjs/angularjs-uiRouter.html",
+        "angularjs/angularjs-uiRouter-code.html",
         "ionic/ionic-side-menu.html",
         "ionic/ionic-actionsheet.html",
         "ionic/ionic-modal.html",
@@ -83,6 +81,8 @@
         "cordova/cordova-plugin-structure.md",
         "ngcordova/ngcordova-plugins-overview.md",
         "ngcordova/ngcordova-capture.md",
+        "ngcordova/ngcordova-plugin-android.html",
+        "ngcordova/ngcordova-plugin-ios.html",
 
         "ngcordova/ngcordova-services.md"
 
@@ -90,20 +90,52 @@
     ],
     [
         "ionic/ionic-overview.md",
-        "ionic/ionic-getting-started.md",
-        "ionic/ionic-cli.md",
+        "ionic/ionic-dev-env.md",
+        "ionic/yeoman-workflow.md",
+        "ionic/ionic-install.html",
+        "ionic/ionic-install-android.html",
+        "ionic/ionic-install-ios.html",
+        "ionic/ionic-install-box.html",
+        "ionic/ionic-app-create.html",
         "ionic/ionic-cli-preview.md",
+
+        "ionic/ionic-starter-html.html",
+        "ionic/ionic-starter-appjs.html",
+        "ionic/ionic-starter-tabs.html",
+        "ionic/ionic-starter-chats.html",
+        "ionic/ionic-starter-chat-detail.html",
+        "ionic/ionic-starter-controller.html",
+        "ionic/ionic-starter-service.html",
+        
         "ionic/ionic-auto-generate-icon.md",
-        "ionic/ionic-view-app.md",
+        "ionic/ionic-testing.html",
+
+        "ionic/ionic-cli-view.html",
+
+
         "ionic/ionic-creator.md",
         "ionic/ionic-lab.md",
+        "ionic/ionic-io.html",
+
         "ionic/ionic-yo-generator.md"
+
 
     ],
     [
-        "ionic/ionic-fullstack.html"
 
-    ]
+        "cordova/cordova-crosswalk.md",
+        "ionic/ionic-crosswalk.html",
+
+        "ionic/ionic-perf-scroll.html",
+        "ionic/ionic-3way-databinding.md",
+        "ionic/ionic-4way-databinding.md",
+        "ionic/ionic-fullstack.html",
+        "strongloop/strongloop-loopback.md"
+
+
+    ],
+    "ionicapplabstaiwan.html"
+
 
     
 ]

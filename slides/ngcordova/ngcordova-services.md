@@ -3,6 +3,7 @@ ngCordova is a collection of 70+ AngularJS extensions on top of the Cordova API 
 
 ![alt resources/ngcordova/ngcordova-services.jpg](resources/ngcordova/ngcordova-services.jpg)
 
-
-
 <!-- ngCordova comes with over 70 native Cordova plugins that you can easily add to your Angular Cordova apps. -->
+<aside class="notes">
+IOT plugin?
+</aside>

@@ -1,0 +1,45 @@
+<h2>$cordovaCapture iOS Implementation</h2>
+<pre><code data-trim="" contenteditable="" class="objectivec">
+- (void)captureImage:(CDVInvokedUrlCommand*)command
+{
+    NSString* callbackId = command.callbackId;
+    NSDictionary* options = [command argumentAtIndex:0];
+
+    if ([options isKindOfClass:[NSNull class]]) {
+        options = [NSDictionary dictionary];
+    }
+
+    // options could contain limit and mode neither of which are supported at this time
+    // taking more than one picture (limit) is only supported if provide own controls via cameraOverlayView property
+    // can support mode in OS
+
+    if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+        NSLog(@"Capture.imageCapture: camera not available.");
+        CDVPluginResult* result = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageToErrorObject:CAPTURE_NOT_SUPPORTED];
+        [self.commandDelegate sendPluginResult:result callbackId:callbackId];
+    } else {
+        if (pickerController == nil) {
+            pickerController = [[CDVImagePicker alloc] init];
+        }
+
+        pickerController.delegate = self;
+        pickerController.sourceType = UIImagePickerControllerSourceTypeCamera;
+        pickerController.allowsEditing = NO;
+        if ([pickerController respondsToSelector:@selector(mediaTypes)]) {
+            // iOS 3.0
+            pickerController.mediaTypes = [NSArray arrayWithObjects:(NSString*)kUTTypeImage, nil];
+        }
+
+        /*if ([pickerController respondsToSelector:@selector(cameraCaptureMode)]){
+            // iOS 4.0
+            pickerController.cameraCaptureMode = UIImagePickerControllerCameraCaptureModePhoto;
+            pickerController.cameraDevice = UIImagePickerControllerCameraDeviceRear;
+            pickerController.cameraFlashMode = UIImagePickerControllerCameraFlashModeAuto;
+        }*/
+        // CDVImagePicker specific property
+        pickerController.callbackId = callbackId;
+
+        [self.viewController presentViewController:pickerController animated:YES completion:nil];
+    }
+}
+</code></pre>

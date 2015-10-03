@@ -7,7 +7,7 @@
 $ ionic resources --icon --splash
 
 </code>
-
+<!-- 
 <h2>There is a great app called <b>Ionic View</b>:</h2>
 <code data-trim contenteditable class="js vbnet code-larger">
 
@@ -20,7 +20,7 @@ $ ionic share [EMAIL]
 
 $ ionic package debug android
 
-</code>
+</code> -->
 
 </pre>
 

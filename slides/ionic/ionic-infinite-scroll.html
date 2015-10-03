@@ -1,0 +1,30 @@
+<h2>Infinite Scroll</h2>
+<pre><code data-trim="" contenteditable="" class="js">
+<ion-content ng-controller="MyController">
+  <ion-list>
+  ....
+  ....
+  </ion-list>
+
+  <ion-infinite-scroll
+    on-infinite="loadMore()"
+    distance="1%">
+  </ion-infinite-scroll>
+</ion-content>
+</code></pre>
+
+<pre><code data-trim="" contenteditable="" class="js">
+function MyController($scope, $http) {
+  $scope.items = [];
+  $scope.loadMore = function() {
+    $http.get('/more-items').success(function(items) {
+      useItems(items);
+      $scope.$broadcast('scroll.infiniteScrollComplete');
+    });
+  };
+
+  $scope.$on('$stateChangeSuccess', function() {
+    $scope.loadMore();
+  });
+}
+</code></pre>
