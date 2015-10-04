@@ -1,0 +1,13 @@
+<h2>Avoid filters in the view</h2>
+<pre><code data-trim contenteditable class="js">
+// bad idea	
+<div class="price" ng-bind="product.price | currency:'£'"></div>
+</code></pre>
+
+<pre><code data-trim contenteditable class="js">
+// way better idea
+<div class="price" ng-bind="product.price"></div>
+angular.foEach(products, function(product) {
+  product.price = $filter('currency')(product.price, '£');
+}
+</code></pre>

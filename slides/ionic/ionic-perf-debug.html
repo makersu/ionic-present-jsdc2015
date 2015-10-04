@@ -1,0 +1,25 @@
+<!-- <h2>Logs & Debug</h2> -->
+<!-- <ul style="margin-left:400px;">
+  <li class="default">Chrome DevTools</li>
+  <li class="default">Batarang Plugin</li>
+  <li class="default">Remote Debugging Devices</li>
+</ul> -->
+
+<h2>Logs</h2>
+<pre><code data-trim contenteditable class="js">
+angular.module('yourModule').config(function($logProvider) {
+    if (/* test if in production */) {
+        $logProvider.debugEnabled(false);
+    }
+});
+</code></pre>
+
+<h2>Debug</h2>
+<pre><code data-trim contenteditable class="js">
+angular.module('yourModule').config(function($compileProvider) {
+    if (/* test if in production */) {
+        $compileProvider.debugInfoEnabled(false);
+    }
+});
+</code></pre>
+

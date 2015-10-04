@@ -1,0 +1,14 @@
+<h2>DOM manipulation</h2>
+<h2>Track by</h2>
+<pre><code data-trim contenteditable class="js">
+<ul>
+  <li ng-repeat="user in users track by user.id"></li>
+</ul>
+</code></pre>
+<h2>$destroy</h2>
+<pre><code data-trim contenteditable class="js">
+scope.$on('$destroy', function () {
+   item.element.remove();
+   item.off('click');
+ });
+</code></pre>

@@ -1,0 +1,13 @@
+<h2>Precalculate properties</h2>
+<pre><code data-trim contenteditable class="xml">
+// bad idea
+<li ng-repeat="person in persons">
+    {{person.expensiveComputation()}}
+</li>
+
+// way better idea
+<li ng-repeat="person in persons">
+    {{person.preCalculatedResult}}
+</li>
+</code></pre>
+

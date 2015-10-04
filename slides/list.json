@@ -125,8 +125,23 @@
 
         "cordova/cordova-crosswalk.md",
         "ionic/ionic-crosswalk.html",
+        "ionic/ionic-perf-basic.html",
+        "ionic/ionic-perf-angular-basic.html",
+        "ionic/ionic-perf-angular-ngif.html",
+        "ionic/ionic-perf-angular-ngrepeat-prop.html",
+        "ionic/ionic-perf-angular-filter.html",
+        "ionic/ionic-perf-angular-onetime.html",
+        "ionic/ionic-perf-angular-dom.html",
+        "ionic/ionic-perf-angular-watch.html",
 
         "ionic/ionic-perf-scroll.html",
+        "ionic/ionic-cached-view.html",
+        
+        "ionic/ionic-perf-debug.html",
+        "ionic/ionic-perf-turning.html",
+
+
+
         "ionic/ionic-3way-databinding.md",
         "ionic/ionic-4way-databinding.md",
         "ionic/ionic-fullstack.html",

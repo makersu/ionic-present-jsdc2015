@@ -1,0 +1,18 @@
+<h2>One-time binding ::</h2>
+<pre><code data-trim contenteditable class="xml">
+<p>
+  {{ ::user.name }}
+</p>
+
+<div ng-if="::user.loggedIn"></div>
+
+<ul>
+  <li ng-repeat="user in ::users"></li>
+</ul>
+
+</code></pre>
+
+
+<!-- One-time binding syntax: {{ ::value }}
+
+Track by: ng-repeat="user in users track by user.id" -->

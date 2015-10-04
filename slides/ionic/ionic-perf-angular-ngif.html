@@ -1,0 +1,11 @@
+<h2>Use ng-if instead of ng-show</h2>
+<pre><code data-trim contenteditable class="xml">
+<button ng-click="expanded = !expanded">
+Show details
+</button>
+
+<div ng-if="expanded">
+    <div ng-include="complex.html"></div>
+</div>
+</code></pre>
+

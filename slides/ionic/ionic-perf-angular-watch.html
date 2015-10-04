@@ -1,0 +1,24 @@
+<h2>$scope.$watch</h2>
+<pre><code data-trim contenteditable class="js">
+$scope.$watch('watchExpression', function(newVal, oldVal){
+    if(newVal){
+        // watchExpression has changed.
+    }
+}, true);
+
+$scope.$watch([
+    'watchExpression',
+    'watchExpression2',
+    'watchExpression3'
+], function(newVals, oldVals) {
+    if (newVals[0]) {
+        // watchExpression has changed.
+    }
+    if (newVals[1]) {
+        // watchExpression2 has changed.
+    }
+    if (newVals[2]) {
+        // watchExpression3 has changed.
+    }
+});
+</code></pre>
